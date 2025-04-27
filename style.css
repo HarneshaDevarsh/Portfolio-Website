@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'nevrada';
+    src: url(./Font/fendysa/Fendysa.otf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(./Font/Roboto/Roboto-Bold.ttf);
+}
+
+body{
+    background-color: black;
+}
+
+.navbar{
+    background-color: white;
+    padding: 10px;
+    /* border: 1px solid red; */
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 2px 5px gray;
+    z-index: 1;
+}
+
+.navbar .nav-link:hover{
+    color: #4CAF50;
+}
+
+.display-4{
+    font-family: 'roboto';
+    font-size: 38px;
+}
+
+.container-fluid{
+    width: 97%;
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.About{
+    height: 100vh;
+}
+
+.background-image{
+    background-image: url('./IMAGE/background1.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.card img{
+    box-shadow: 5px 5px 10px white;
+    border-radius: 30px;
+}
+
+.img-font{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.display-5{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'nevrada';
+    letter-spacing: 3px;
+    word-spacing: 6px;
+    
+}
+
+.img-paragraph{
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.display-6{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+
+.display-6 a{
+    color: white;
+    text-decoration: none;
+}
+
+.display-6 a:hover{
+    color: #4CAF50;
+    font-weight: 500;
+}
+
+.icons a{
+    color: white;
+    text-decoration: none;
+}
+
+.icons a:hover{
+    color: green;
+}
+
+.background-image_2{
+    padding: 35px;
+    /* background-color: black; */
+    background-image: url('./image/1653256779352_1.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.first{
+    padding: 50px;
+}
+
+.first_1{
+    background-color: black;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.first_1 img{
+    background-color: white;
+    width: 100%;
+}
+
+.first_1 a i{
+    font-size: 35px;
+    color: white;
+}
+
+.background-image_3{
+    padding: 35px;
+    /* background-color: black; */
+    background-image: url('./image/full-stack-developer-module.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;    
+}
+
+.carousel-inner img{
+    width: 50%;
+}
+
+@media (max-width: 769px) {
+    .background-image{
+        height: 140vh;
+    }
+
+    .background-image_2{
+        height: 140vh;
+    }
+
+    .display-4{
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 426px) {
+    .background-image{
+        height: 300vh;
+    }
+
+    .background-image_2{
+        height: 230vh;
+    }
+
+    .background-image_3{
+        height: 100vh;
+    }
+}
+
+@media (max-width: 350px) {
+    .background-image{
+        height: 300vh;
+    }
+
+    .background-image_2{
+        height: 250vh;
+    }
+
+    .background-image_3{
+        height: 100vh;
+    }
+
+    .display-4{
+        font-size: 20px;
+    }
+}
+

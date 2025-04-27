@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+
+.main {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+
+.main h1 {
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 2.2rem;
+}
+
+.main i {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.main a i:hover {
+    color: #388e3c;
+    transition: 0.3s;
+}
+
+.main h6 {
+    font-size: 16px;
+    color: rgb(123, 123, 123);
+    margin-bottom: 20px;
+}
