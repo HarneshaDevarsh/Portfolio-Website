@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'nevrada';
-    src: url(./Font/fendysa/Fendysa.otf);
+    src: url(.Fendysa.otf);
 }
 
 @font-face {
     font-family: 'roboto';
-    src: url(./Font/Roboto/Roboto-Bold.ttf);
+    src: url(.Roboto-Bold.ttf);
 }
 
 body{
@@ -44,7 +44,7 @@ body{
 }
 
 .background-image{
-    background-image: url('./IMAGE/background1.jpeg');
+    background-image: url('background1.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -105,7 +105,7 @@ body{
 .background-image_2{
     padding: 35px;
     /* background-color: black; */
-    background-image: url('./image/1653256779352_1.jpeg');
+    background-image: url('1653256779352_1.jpeg');
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -135,7 +135,7 @@ body{
 .background-image_3{
     padding: 35px;
     /* background-color: black; */
-    background-image: url('./image/full-stack-developer-module.jpg');
+    background-image: url('full-stack-developer-module.jpg');
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;    
